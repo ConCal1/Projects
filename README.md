@@ -7,7 +7,7 @@
   1. Download Dataset: [Electric Vehicle Population Data](https://catalog.data.gov/dataset/electric-vehicle-population-data)
   2. Download file (EV Project.pbix) and open via Microsoft Power BI
 * Largest Companies 
-  1. Download Dataset: Companies.csv; data source[List of largest companies in the United States by revenue](https://en.wikipedia.org/wiki/List_of_largest_companies_in_the_United_States_by_revenue)
+  1. Download Dataset: Companies.csv; data source: [List of largest companies in the United States by revenue](https://en.wikipedia.org/wiki/List_of_largest_companies_in_the_United_States_by_revenue)
   2. Download file (Largest Companies.pbix) and open via Microsoft Power BI
 * NYC Job Postings 
   1. Download Dataset: jobs_data_clean.csv; data source: [Jobs NYC Postings](https://catalog.data.gov/dataset/nyc-jobs)
