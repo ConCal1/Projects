@@ -1,9 +1,3 @@
-# Projects
-Repository of Sample Projects
+# Microsoft Power BI Projects
 
-Divided in multiple sub-branches
-1. Excel
-2. MySQL
-3. Python
-
-Reference: Alex the Analyst Data Analyst Bootcamp
+* Final Project (*reference: Alex the Analyst Data Analyst Bootcamp* [vid 41](https://youtu.be/pixlHHe_lNQ?feature=shared))
