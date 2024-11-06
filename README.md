@@ -6,5 +6,6 @@ Divided in multiple sub-branches
 2. MySQL
 3. Power BI
 4. Python
+5. Tableau
 
 Reference: Alex the Analyst Data Analyst Bootcamp
