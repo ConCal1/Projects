@@ -1,5 +1,6 @@
 # Microsoft Power BI Projects
 
 * Final Project (*reference: Alex the Analyst Data Analyst Bootcamp* [vid 41](https://youtu.be/pixlHHe_lNQ?feature=shared))
-  * Download file (41. Final Project.pbix) and open via Microsoft Power BI
-  * Dataset source: [Power BI - Final Project.xlsx](https://github.com/AlexTheAnalyst/Power-BI/blob/30d9e66e34a15900c5a191e76372e96bf4acf43a/Power%20BI%20-%20Final%20Project.xlsx)   
+  1. Download Dataset: [Power BI - Final Project.xlsx](https://github.com/AlexTheAnalyst/Power-BI/blob/30d9e66e34a15900c5a191e76372e96bf4acf43a/Power%20BI%20-%20Final%20Project.xlsx)
+  2. Download file (41. Final Project.pbix) and open via Microsoft Power BI
+  
