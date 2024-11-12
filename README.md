@@ -1,3 +1,3 @@
 # LaTeX Projects - via Overleaf
 
-* Sample Summary Report Template
+* Sample Summary Report Template.tex
