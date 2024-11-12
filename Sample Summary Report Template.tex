@@ -1,0 +1,170 @@
+\documentclass[a4paper,twoside,11pt]{article}
+\usepackage{a4wide,graphicx,fancyhdr,clrscode,tabularx,amsmath,amssymb,color,enumitem}
+\usepackage{algo}
+
+%----------------------- Macros and Definitions --------------------------
+
+\setlength\headheight{20pt}
+\addtolength\topmargin{-10pt}
+\addtolength\footskip{20pt}
+
+\fancypagestyle{plain}{%
+\fancyhf{}
+\fancyhead[LO,RE]{\sffamily Geochemical Monitoring \\ and Research and Development (GCRD)}
+\fancyhead[RO,LE]{\sffamily Volcano Monitoring and \\ Eruption Prediction Division (VMEPD)}
+\fancyfoot[LO,RE]{\sffamily /Philippine Institute of Volcanology and Seismology (PHIVOLCS)}
+\fancyfoot[RO,LE]{\sffamily\bfseries\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[RO,LE]{\sffamily Geochemical Monitoring \\ and Research and Development (GCRD)}
+\fancyhead[LO,RE]{\sffamily Volcano Monitoring and \\ Eruption Prediction Division (VMEPD)}
+\fancyfoot[LO,RE]{\sffamily /Philippine Institute of Volcanology and Seismology (PHIVOLCS)}
+\fancyfoot[RO,LE]{\sffamily\bfseries\thepage}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\newcommand{\R}{{\mathbb R}}
+\newcommand{\N}{{\mathbb N}}
+\newcommand{\Z}{{\mathbb Z}}
+\newcommand{\Q}{{\mathbb Q}}
+
+\usepackage{amsmath}
+\usepackage{csquotes}
+\usepackage{subcaption}
+\usepackage[export]{adjustbox}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+\usepackage{xcolor}
+
+\begin{document}
+
+\title{\vspace{-2\baselineskip} 
+\textbf{Summary of determination of the $\delta$ 34S of sulfate in water from Reston Stable Isotope Laboratory (RSIL) of USGS}
+}
+\author{\textit{prepared by: GCRD}}
+
+\maketitle
+
+\subsection*{I. Summary of Procedure}
+\begin{enumerate}
+    \item \hyperlink{thesentence1}{collect} dissolved sulfate from the field as water samples
+    \item \hyperlink{thesentence2}{precipitate} out dissolved sulfate with BaCl$_2$ at pH 3-4 as BaSO$_4$
+    \item oxidize dissolved organic sulfur (DOS) to SO$_2$ and acidify carbonate to CO$_2$ - both are degassed from the water sample before the sulfate is precipitated \\ \\ \textbf{NOTE: steps onwards are limited on availability of laboratory equipment, and are beyond the capability of PHIVOLCS Geochemical Laboratory}
+    
+    \item precipitated BaSO$_4$ is filtered and dried \hyperlink{thesentence3}{before introduction} into an elemental analyzer (EA) - Carlo Erba NC 2500
+    \begin{itemize}
+        \item \textit{EA is used to convert sulfur in a BaSO$_4$ solid sample into SO$_2$ gas}
+    \end{itemize}
+    \item EA is connected to a continuous flow isotope-ratio mass spectrometer (CF-IRMS)
+    \begin{itemize}
+        \item \textit{CF-IRMS determines the differences in the isotope-amount ratios of stable sulfur isotopes ($^3^4$S/$^3^2$S) of the product SO$_2$ gas}
+        \item \textit{combustion is quantitative; no isotopic fractionation is involved}
+    \end{itemize}
+    \item Samples are placed in a tin capsule and loaded into the Costech Zero Blank Autosampler of the EA.
+    \item Under computer control, samples are dropped into a heated tube reaction tube that combines the oxidation and reduction reactions.
+    \begin{itemize}
+        \item \textit{The combustion takes place in a helium atmosphere containing an excess of oxygen gas at the oxidation zone at the top of the reaction tube.}
+    \end{itemize}
+    \item Combustion products are transported by a helium carrier through the reduction zone at the bottom of the reaction tube to remove excess oxygen and through a separate drying tube to remove any water.
+    \item The gas-phase products, mainly CO$_2$, N$_2$, and SO$_2$, are separated by a gas chromatograph (GC).
+    \item The gas is then introduced into the isotope-ratio mass spectrometer (IRMS) through a Finnigan MAT (now Thermo Scientific) ConFlo II interface, which also is used to inject SO$_2$ reference gas and helium for sample dilution
+    \begin{itemize}
+        \item \textit{The IRMS is a Thermo Scientific Delta V Plus CF-IRMS.}
+        \item \textit{It has a universal triple collector with two wide cups and a narrow cup in the middle.}
+        \item \textit{It is capable of measuring $\frac{mass}{charge}$ ($\frac{m}{z}$) 64 and 66 simultaneously.}
+        \item \textit{The ion beams from SO$_2$ are as follows: \\ $\frac{m}{z}$64 = SO$_2$ = $^3^2S^1^6O^1^6O$ \\ $\frac{m}{z}$66 = SO$_2$ = $^3^4S^1^6O^1^6O$}
+    \end{itemize}
+\end{enumerate}
+
+\subsection*{II. Labware, Instrumentation, and Reagents}
+\textbf{\hypertarget{thesentence1}Sample Containers, Preservation, and Handling Requirements}
+\\ \\ \textbf{NOTE:} highlighted in \color{red}red \color{black} are NOT readily available at PHIVOLCS Geochemical Laboratory
+\begin{itemize}
+    \item Sulfate and sulfide concentration should be determined in the field by \color{red}ion chromatograph or spectrophotometer (for field test)\color{black}
+    \begin{itemize}
+        \item Each sample that contains more than 20 milligrams per liter ($\frac{mg}{L}$) sulfate and does not contain sulfide is filtered with a \color{red}47-mm diameter 0.4-$\mu$m polycarbonate membrane (PCM) filter.\color{black}
+    \end{itemize}
+    \item \color{black}Each sample should be collected in 1-L (or smaller) glass or plastic bottles.
+    \item An amount of 50 mg of \color{red}BaSO$_4$ \color{black}is required.
+    \item Containers should be labeled with isotopes whose concentrations are to be determined and with the respective laboratory code or schedule number.
+    \item Sulfate concentrations lower than 20 $\frac{mg}{L}$ can be analyzed; however, a different collection technique is required. 
+    \begin{itemize}
+        \item Consult SOP 1949 or contact the laboratory for further information.
+    \end{itemize}
+    \item If a water sample contains dissolved sulfide, care should be taken during collection not to expose the sample to air to minimize oxidation of sulfide to sulfate.
+    \begin{itemize}
+        \item Trace oxidized sulfide could seriously alter the $\delta$ 34S of sulfate.
+    \end{itemize}
+    \item Each sample that contains more than 0.01 $\frac{mg}{L}$ sulfide or has a $\frac{sulfate}{sulfide}$ ratio less than 40 should be stripped with \color{red}N$_2$ \color{black}gas to remove sulfide before the sample is collected.
+    \begin{enumerate}
+        \item The sulfide stripping is done by filling a 10-L bucket with a water sample
+        \item acidifying it to pH 3 to 4 with 1 M HCl
+        \item immersing the outlet of the \color{red}N$_2$ \color{black}flow into the bottom, covering the system loosely with plastic wrap, and purging with an \color{red}N$_2$ \color{black}flow rate of 8 $\frac{L}{min}$ until the sulfide concentration is less than 0.01 $\frac{mg}{L}$. 
+        \item This usually takes less than 10 to 20 minutes (min).
+    \end{enumerate}
+    \item No treatment, preservation, or special shipping is required.
+\end{itemize}
+
+\subsection*{III. Appendix B: Step-by-step Procedure on \hypertarget{thesentence2}{Precipitation}}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\textwidth]{appendix B.png}
+\caption{Step-by-Step Procedure to Precipitate BaSO$_4$}
+\label{fig:figure2}
+\end{figure}
+
+\paragraph{(a.)} \textbf{Available at PHIVOLCS Geochemical Laboratory}
+\begin{itemize}
+    \item concentrated HCl - \textit{for the preparation of 1 M HCl}
+    \item deionized water (DIW)
+    \item stirring hot plate with stir bar, watch glass - \textit{for the oxidation of dissolved organic sulfur with H$_2$O$_2$}
+    \item oven
+    \item thermometer
+    \item analytical balance
+\end{itemize}
+
+\paragraph{(a.)} \textbf{Not available at PHIVOLCS Geochemical Laboratory}
+\begin{itemize}
+    \item H$_2$O$_2$ - \textit{for the oxidation of dissolved organic sulfur with H$_2$O$_2$}
+    \item a filtering apparatus with 0.2-$\mu$m Millipore GTTP polycarbonate membrane (PCM) filter
+    \item BaCl$_2 \cdot$ 2H$_2$O - \textit{for 20-weight-percent BaCl$_2$ solution}
+    \item tin capsules
+    \item microbalance capable of measuring
+\end{itemize}
+
+\subsection*{IV. Appendix D.  Step-by-step Procedure for \hypertarget{thesentence3}Weighing and Storing}
+
+\begin{figure}[h]
+\includegraphics[width=1\textwidth]{appendix D.png}
+\caption{Step-by-Step Procedure for Weighing and Storing Samples}
+\label{fig:figure2}
+\end{figure}
+
+\paragraph{(a.)} \textbf{Available at PHIVOLCS Geochemical Laboratory}
+\begin{itemize}
+    \item Kimwipes
+\end{itemize}
+
+\paragraph{(a.)} \textbf{Not available at PHIVOLCS Geochemical Laboratory}
+\begin{itemize}
+    \item tin capsules
+    \item microbalance capable of measuring
+    \item V$_2$O$_5$
+\end{itemize}
+
+\subsection*{V. Reference}
+
+\begin{itemize}
+    \item \textit{Determination of the $\delta$ 34S of sulfate in water; RSIL lab code 1951}. Reston, VA: U.S. Geological Survey, 2006. Print. 10-C10. \url{https://pubs.er.usgs.gov/publication/tm10C10}
+\end{itemize}
+\end{document}
